@@ -102,6 +102,12 @@ For the complete guide on syntax, advanced styles, and theme customization, visi
 
 ---
 
+## Part of the VMPrint Ecosystem
+
+`draft2final` is the official CLI for [VMPrint](https://github.com/cosmiciron/vmprint) — a native, high-performance typesetting engine for Node.js. If you need direct access to the layout engine, PDF context, font management, or document transmuters, visit the VMPrint repository.
+
+---
+
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
